@@ -45,36 +45,20 @@ session_start();
 		<![endif]-->
     <style>
         #navigation {
-          background:#000080;  /* fallback for old browsers */
-            background: -webkit-linear-gradient(to right,#000080,#000080);  /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to right,#000080,#000080); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-          
+          background: #fff;  /* fallback for old browsers */
         }
         #header {
   
-            background: #000080;  /* fallback for old browsers */
-            background: -webkit-linear-gradient(to right, #000080, #000080);  /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to right, #000080, #000080); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-  
+            background: #000;  /* fallback for old browsers */
         }
-        #top-header {
-              
-  
-            background: #000080;  /* fallback for old browsers */
-            background: -webkit-linear-gradient(to right, #190A05, #000080);  /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to right, #190A05, #000080); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
+        #top-header {  
+            background: #000;  /* fallback for old browsers */
         }
         #footer {
-            background: #000080;  /* fallback for old browsers */
-            background: -webkit-linear-gradient(to right, #348AC7, #000080);  /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to right, #348AC7, #000080); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            background: #000; 
 
 
-          color: #FFFF00;
+          color: #ffffff;
         }
         #bottom-footer {
             background: #000080;  /* fallback for old browsers */
@@ -84,7 +68,7 @@ session_start();
 
         }
         .footer-links li a {
-          color: #FFFF00;
+          color: #ffffff;
         }
         .mainn-raised {
             
@@ -174,8 +158,8 @@ session_start();
 						<div class="col-md-3">
 							<div class="header-logo">
 								<a href="#" class="logo">
-								<font style="font-style:normal; font-size: 33px;color: aliceblue;font-family: serif">
-                                        Online Shopping
+								<font style="font-style:normal; font-size: 33px;color: red;font-family: serif">
+                                        RaRa Cell
                                     </font>
 									
 								</a>
