@@ -92,12 +92,8 @@ session_start();
     .glyphicon-chevron-right:before{
         content:"\f054"
     }
-        
-
-       
-        
-        </style>
-
+         
+    </style>
     </head>
 	<body>
 		<!-- HEADER -->
@@ -107,7 +103,6 @@ session_start();
 				<div class="container">
 					
 					<ul class="header-links pull-right">
-						<li><a href="#"><i class="fa fa-inr"></i> INR</a></li>
 						<li><?php
                              include "db.php";
                             if(isset($_SESSION["uid"])){
@@ -131,15 +126,14 @@ session_start();
                                   <a href="#" class="dropdownn" data-toggle="modal" data-target="#myModal" ><i class="fa fa-user-o"></i> My Account</a>
                                   <div class="dropdownn-content">
                                     <a href="" data-toggle="modal" data-target="#Modal_login"><i class="fa fa-sign-in" aria-hidden="true" ></i>Login</a>
-                                    <a href="" data-toggle="modal" data-target="#Modal_register"><i class="fa fa-user-plus" aria-hidden="true"></i>Register</a>
-                                    
+                                    <a href="" data-toggle="modal" data-target="#Modal_register"><i class="fa fa-user-plus" aria-hidden="true"></i>Register</a>  
                                   </div>
                                 </div>';
                                 
                             }
-                                             ?>
+                       		?>
                                
-                                </li>				
+                        </li>				
 					</ul>
 					
 				</div>
@@ -158,10 +152,9 @@ session_start();
 						<div class="col-md-3">
 							<div class="header-logo">
 								<a href="#" class="logo">
-								<font style="font-style:normal; font-size: 33px;color: red;font-family: serif">
-                                        RaRa Cell
-                                    </font>
-									
+								<font style="font-style:normal; font-size: 33px;color: #D14D72 ;font-family: serif">
+                                    RaRa Cell
+                                </font>
 								</a>
 							</div>
 						</div>
@@ -172,9 +165,7 @@ session_start();
 							<div class="header-search">
 								<form>
 									<select class="input-select">
-										<option value="0">All Categories</option>
-										<option value="1">Men</option>
-										<option value="1">Women </option>
+										<span>Menu</span>
 									</select>
 									<input class="input" id="search" type="text" placeholder="Search here">
 									<button type="submit" id="search_btn" class="search-btn">Search</button>
@@ -192,17 +183,15 @@ session_start();
 								<div class="dropdown">
 									<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
 										<i class="fa fa-shopping-cart"></i>
-										<span>Your Cart</span>
+										<span>Keranjang</span>
 										<div class="badge qty">0</div>
 									</a>
 									<div class="cart-dropdown"  >
 										<div class="cart-list" id="cart_product">
-										
-											
 										</div>
 										
 										<div class="cart-btns">
-												<a href="cart.php" style="width:100%;"><i class="fa fa-edit"></i>  edit cart</a>
+												<a href="cart.php" style="width:100%;"><i class="fa fa-edit"></i> Edit Pesanan </a>
 											
 										</div>
 									</div>
@@ -232,7 +221,6 @@ session_start();
 		<nav id='navigation'>
 			<!-- container -->
             <div class="container" id="get_category_home">
-                
             </div>
 				<!-- responsive-nav -->
 				
@@ -283,5 +271,4 @@ session_start();
                           </div>
 
                         </div>
-                      </div>
-		
+			</div>		

@@ -10,21 +10,14 @@
 								<h3 class="footer-title">About Us</h3>
 								
 								<ul class="footer-links">
-									<li><a href="#"><i class="fa fa-map-marker"></i>address</a></li>
-									<li><a href="#"><i class="fa fa-phone"></i>08124372444</a></li>
-									<li><a href="#"><i class="fa fa-envelope-o"></i>roin@gmail.com</a></li>
+									<li><a href="#"><i class="fa fa-map-marker"></i>Lt 1 Jogjakarta City Mall</a></li>
+									<li><a href="#"><i class="fa fa-phone"></i>0812437244432</a></li>
+									<li><a href="#"><i class="fa fa-envelope-o"></i>raracell@gmail.com</a></li>
 								</ul>
 							</div>
 						</div>
 						<div class="col-md-6 text-center" style="margin-top:80px;">
-							<ul class="footer-payments">
-								<li><a href="#"><i class="fa fa-cc-visa"></i></a></li>
-								<li><a href="#"><i class="fa fa-credit-card"></i></a></li>
-								<li><a href="#"><i class="fa fa-cc-paypal"></i></a></li>
-								<li><a href="#"><i class="fa fa-cc-mastercard"></i></a></li>
-								<li><a href="#"><i class="fa fa-cc-discover"></i></a></li>
-								<li><a href="#"><i class="fa fa-cc-amex"></i></a></li>
-							</ul>
+							
 							<span class="copyright">
 								<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 								Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved
@@ -36,8 +29,8 @@
 							<div class="footer">
 								<h3 class="footer-title">Categories</h3>
 								<ul class="footer-links">
-									<li><a href="#">Mobiles</a></li>
-									<li><a href="#">Men</a></li>
+									<li><a href="#">Hardcase</a></li>
+									<li><a href="#">Softcase</a></li>
 									<li><a href="#">Women</a></li>
 									<li><a href="#">Kids</a></li>
 									<li><a href="#">Accessories</a></li>

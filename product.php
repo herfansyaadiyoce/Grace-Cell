@@ -58,7 +58,7 @@ include "header.php";
 					<?php 
 								include 'db.php';
 								$product_id = $_GET['p'];
-								
+					
 								$sql = " SELECT * FROM products ";
 								$sql = " SELECT * FROM products WHERE product_id = $product_id";
 								if (!$con) {
@@ -248,7 +248,7 @@ include "header.php";
 										<!-- Rating -->
 										<div class="col-md-3">
 											<div id="rating">
-												<div class="rating-avg">
+											<div class="rating-avg">
 													<span>4.5</span>
 													<div class="rating-stars">
 														<i class="fa fa-star"></i>
@@ -257,7 +257,7 @@ include "header.php";
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star-o"></i>
 													</div>
-												</div>
+												</div>	
 												<ul class="rating">
 													<li>
 														<div class="rating-stars">
@@ -526,7 +526,6 @@ include "header.php";
 
 		<!-- FOOTER -->
 <?php
-include "newslettter.php";
 include "footer.php";
 
 ?>
