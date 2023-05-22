@@ -203,7 +203,7 @@ session_start();
 								<div class="menu-toggle">
 									<a href="#">
 										<i class="fa fa-bars"></i>
-										<span>Menu</span>
+										<span>Main Menu</span>
 									</a>
 								</div>
 								<!-- /Menu Toogle -->
