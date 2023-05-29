@@ -1,7 +1,6 @@
 
    <div class="main main-raised">
-        <div class="container mainn-raised" style="width:100%;">
-  
+	<div class="container mainn-raised" style="width:100%;">
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
    
@@ -11,25 +10,14 @@
 
       <div class="item active">
         <img src="img/banner3.jpg" alt="Los Angeles" style="width:100%;">
-        
       </div>
 
       <div class="item">
         <img src="img/banner2.jpg" style="width:100%;">
-        
       </div>
     
       <div class="item">
         <img src="img/banner4.jpg" alt="New York" style="width:100%;">
-        
-      </div>
-      <div class="item">
-        <img src="img/banner1.jpg" alt="New York" style="width:100%;">
-        
-      </div>
-      <div class="item">
-        <img src="img/banner3.jpg" alt="New York" style="width:100%;">
-        
       </div>
   
     </div>
@@ -54,7 +42,6 @@
 		
 			<!-- container -->
 			<div class="container">
-			
 				<!-- row -->
 				<div class="row">
 					<!-- shop -->
@@ -120,7 +107,7 @@
 							<h3 class="title">Produk Yang Tersedia</h3>
 							<div class="section-nav">
 								<ul class="section-tab-nav tab-nav">
-									<li><a data-toggle="tab" href="#tab1">Accessories</a></li>
+									<li><a  href="store.php">Aksesoris</a></li>
 								</ul>
 							</div>
 						</div>
@@ -214,31 +201,31 @@
 								<li>
 									<div>
 										<h3>02</h3>
-										<span>Days</span>
+										<span>Hari</span>
 									</div>
 								</li>
 								<li>
 									<div>
 										<h3>10</h3>
-										<span>Hours</span>
+										<span>Jam</span>
 									</div>
 								</li>
 								<li>
 									<div>
 										<h3>34</h3>
-										<span>Mins</span>
+										<span>Menit</span>
 									</div>
 								</li>
 								<li>
 									<div>
 										<h3>60</h3>
-										<span>Secs</span>
+										<span>Detik</span>
 									</div>
 								</li>
 							</ul>
-							<h2 class="text-uppercase">hot deal this week</h2>
-							<p>New Collection Up to 50% OFF</p>
-							<a class="primary-btn cta-btn" href="store.php">Shop now</a>
+							<h2 class="text-uppercase">Penawaran Minggu Ini</h2>
+							<p>Koleksi Terbaru Diskon 50% </p>
+							<a class="primary-btn cta-btn" href="store.php">Beli Sekarang</a>
 						</div>
 					</div>
 				</div>
@@ -335,7 +322,7 @@
 				<div class="row">
 					<div class="col-md-4 col-xs-6">
 						<div class="section-title">
-							<h4 class="title">Top selling</h4>
+							<h4 class="title">Produk Kami</h4>
 							<div class="section-nav">
 								<div id="slick-nav-3" class="products-slick-nav"></div>
 							</div>

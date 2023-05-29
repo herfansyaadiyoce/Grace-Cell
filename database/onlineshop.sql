@@ -126,7 +126,7 @@ CREATE TABLE `categories` (
 --
 
 INSERT INTO `categories` (`cat_id`, `cat_title`) VALUES
-(1, 'Accessories'),
+(1, 'Accessories');
 -- --------------------------------------------------------
 
 --
@@ -241,7 +241,7 @@ INSERT INTO `order_products` (`order_pro_id`, `order_id`, `product_id`, `qty`, `
 -- --------------------------------------------------------
 
 --
--- Table structure for table `products`
+-- Table structure for table `gitproducts`
 --
 
 CREATE TABLE `products` (

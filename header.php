@@ -1,6 +1,5 @@
 <?php
 session_start();
-
 ?>
 
 <!DOCTYPE html>
@@ -9,7 +8,7 @@ session_start();
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<meta name="author" content="Bomba Team">
 
 		<title>Rara Cell</title>
 
@@ -78,13 +77,13 @@ session_start();
 
         }
        
-        .glyphicon{
-    display: inline-block;
-    font: normal normal normal 14px/1 FontAwesome;
-    font-size: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    .glyphicon{
+		display: inline-block;
+		font: normal normal normal 14px/1 FontAwesome;
+		font-size: inherit;
+		text-rendering: auto;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
     }
     .glyphicon-chevron-left:before{
         content:"\f053"
@@ -167,8 +166,8 @@ session_start();
 									<select class="input-select">
 										<span>Menu</span>
 									</select>
-									<input class="input" id="search" type="text" placeholder="Search here">
-									<button type="submit" id="search_btn" class="search-btn">Search</button>
+										<input class="input" id="search" type="text" placeholder="Cari apa sayang?">
+										<button type="submit" id="search_btn" class="search-btn">Cari</button>
 								</form>
 							</div>
 						</div>

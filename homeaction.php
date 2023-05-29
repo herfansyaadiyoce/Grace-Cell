@@ -8,15 +8,12 @@ if(isset($_POST["categoryhome"])){
     
 	$run_query = mysqli_query($con,$category_query) or die(mysqli_error($con));
 	echo "
-		
-            
-            
 				<!-- responsive-nav -->
 				<div id='responsive-nav'>
 					<!-- NAV -->
 					<ul class='main-nav nav navbar-nav'>
-                    <li><a class='active' href='index.php'>Home</a></li>
-                    <li><a href='store.php'>Accessories</a></li>
+                    <li><a class='active' href='index.php'>Beranda</a></li>
+                    <li><a href='store.php'>Aksesoris</a></li>
 	";
 	if(mysqli_num_rows($run_query) > 0){
 		while($row = mysqli_fetch_array($run_query)){
@@ -27,15 +24,7 @@ if(isset($_POST["categoryhome"])){
             $query = mysqli_query($con,$sql);
             $row = mysqli_fetch_array($query);
             $count=$row["count_items"];
-            
-            
-            
-			echo "
-					
-                    
-                <li class='categoryhome' cid='$cid'><a href='store.php'>$cat_name</a></li>
-                    
-			";
+			echo "<li class='categoryhome' cid='$cid'><a href='store.php'>$cat_name</a></li>";
 		}
         
 		echo "</ul>
