@@ -37,8 +37,6 @@
 
 	<!-- SECTION -->
 	<div class="section mainn mainn-raised">
-
-
 		<!-- container -->
 		<div class="container">
 			<!-- row -->
@@ -166,7 +164,7 @@
 										<button pid='$pro_id' id='product' class='add-to-cart-btn block2-btn-towishlist' href='#'><i class='fa fa-shopping-cart'></i> add to cart</button>
 									</div>
 								</div>
-			";
+										";
 										};
 									}
 									?>
