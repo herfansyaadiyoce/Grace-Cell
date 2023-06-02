@@ -84,7 +84,7 @@ if (isset($_POST["email"]) && isset($_POST["password"])) {
 			echo "<script> location.href='admin/addproduct.php'; </script>";
 			exit;
 		} else {
-			echo "<span style='color:red;'>Please register before login..!</span>";
+			echo "<span style='color:red;'>Daftar Akun Dulu Yaaa...</span>";
 			exit();
 		}
 	}

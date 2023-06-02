@@ -73,16 +73,11 @@ include 'header.php';
 							</div>
 						</div>
 					</div>
-					<!-- /aside Widget -->
 
-					<!-- aside Widget -->
-					<div id="get_brand">
-					</div>
-					<!-- /aside Widget -->
 
 					<!-- aside Widget -->
 					<div class="aside">
-						<h3 class="aside-title">Top selling</h3>
+						<h3 class="aside-title">Penjualan Terbaik</h3>
 						<div id="get_product_home">
 							<!-- product widget -->
 
@@ -109,8 +104,8 @@ include 'header.php';
 							<label>
 								Show:
 								<select class="input-select">
-									<option value="0">20</option>
-									<option value="1">50</option>
+									<option value="0">1</option>
+									<option value="1">2</option>
 								</select>
 							</label>
 						</div>
