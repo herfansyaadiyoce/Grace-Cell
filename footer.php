@@ -29,13 +29,13 @@
 
 				<div class="col-md-3 col-xs-6">
 					<div class="footer">
-						<h3 class="footer-title">Categories</h3>
+						<h3 class="footer-title">Aksesoris </h3>
 						<ul class="footer-links">
 							<li><a href="#">Hardcase</a></li>
 							<li><a href="#">Softcase</a></li>
-							<li><a href="#">Women</a></li>
-							<li><a href="#">Kids</a></li>
-							<li><a href="#">Accessories</a></li>
+							<li><a href="#">Charger</a></li>
+							<li><a href="#">Powerbank</a></li>
+							<li><a href="#">Headset</a></li>
 						</ul>
 					</div>
 				</div>

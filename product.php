@@ -445,6 +445,7 @@ include "header.php";
 					$_SESSION['product_id'] = $row['product_id'];
 				}
 			}
+
 			?>
 			<?php
 			include 'db.php';
@@ -514,13 +515,7 @@ include "header.php";
 	</div>
 	<!-- /container -->
 </div>
-<!-- /Section -->
 
-<!-- NEWSLETTER -->
-
-<!-- /NEWSLETTER -->
-
-<!-- FOOTER -->
 <?php
 include "footer.php";
 

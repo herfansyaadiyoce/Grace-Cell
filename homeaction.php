@@ -19,7 +19,6 @@ if (isset($_POST["categoryhome"])) {
 		while ($row = mysqli_fetch_array($run_query)) {
 			$cid = $row["cat_id"];
 			$cat_name = $row["cat_title"];
-
 			$sql = "SELECT COUNT(*) AS count_items FROM products,categories WHERE product_cat=cat_id";
 			$query = mysqli_query($con, $sql);
 			$row = mysqli_fetch_array($query);
@@ -68,10 +67,8 @@ if (isset($_POST["getProducthome"])) {
 			$pro_title = $row['product_title'];
 			$pro_price = $row['product_price'];
 			$pro_image = $row['product_image'];
-
 			$cat_name = $row["cat_title"];
 			echo "
-				
                        <div class='product-widget'>
                                 <a href='product.php?p=$pro_id'> 
 									<div class='product-img'>

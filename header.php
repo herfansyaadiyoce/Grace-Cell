@@ -172,19 +172,7 @@ session_start();
 					</div>
 					<!-- /LOGO -->
 
-					<!-- SEARCH BAR -->
-					<div class="col-md-6">
-						<div class="header-search">
-							<form>
-								<select class="input-select">
-									<span>Menu</span>
-								</select>
-								<input class="input" id="search" type="text" placeholder="Cari apa sayang?">
-								<button type="submit" id="search_btn" class="search-btn">Cari</button>
-							</form>
-						</div>
-					</div>
-					<!-- /SEARCH BAR -->
+
 
 					<!-- ACCOUNT -->
 					<div class="col-md-3 clearfix">
@@ -201,10 +189,8 @@ session_start();
 								<div class="cart-dropdown">
 									<div class="cart-list" id="cart_product">
 									</div>
-
 									<div class="cart-btns">
 										<a href="cart.php" style="width:100%;"><i class="fa fa-edit"></i> Edit Pesanan </a>
-
 									</div>
 								</div>
 
