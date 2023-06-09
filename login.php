@@ -14,8 +14,8 @@ if (isset($_POST["email"]) && isset($_POST["password"])) {
 	$run_query = mysqli_query($con, $sql);
 	$count = mysqli_num_rows($run_query);
 	$row = mysqli_fetch_array($run_query);
-	$_SESSION["uid"] = $row["user_id"];
-	$_SESSION["name"] = $row["first_name"];
+	$_SESSION["uid"] = isset($row["user_id"]) ? $row["user_id"] : '';
+	$_SESSION["name"] = isset($row["first_name"]) ? $row["first_name"] : '';
 	$ip_add = getenv("REMOTE_ADDR");
 	//we have created a cookie in login_form.php page so if that cookie is available means user is not login
 
@@ -40,9 +40,7 @@ if (isset($_POST["email"]) && isset($_POST["password"])) {
 					mysqli_query($con, $delete_existing_product);
 				}
 			}
-			//here we are destroying user cookie
 			setcookie("product_list", "", strtotime("-1 day"), "/");
-			//if user is logging from after cart page we will send cart_login
 			echo "cart_login";
 
 
@@ -54,10 +52,9 @@ if (isset($_POST["email"]) && isset($_POST["password"])) {
 		if (!isset($BackToMyPage)) {
 			header('Location: ' . $BackToMyPage);
 			echo "<script type='text/javascript'>
-					
 					</script>";
 		} else {
-			header('Location: index.php'); // default page
+			header('Location: index.php');
 		}
 
 

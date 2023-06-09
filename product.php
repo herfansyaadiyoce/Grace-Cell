@@ -156,7 +156,7 @@ include "header.php";
 							<ul class="tab-nav">
 								<li class="active"><a data-toggle="tab" href="#tab1">Description</a></li>
 								<li><a data-toggle="tab" href="#tab2">Details</a></li>
-								<li><a data-toggle="tab" href="#tab3">Reviews (3)</a></li>
+								<li><a data-toggle="tab" href="#tab3">Reviews</a></li>
 							</ul>
 							<!-- /product tab nav -->
 
@@ -166,7 +166,7 @@ include "header.php";
 								<div id="tab1" class="tab-pane fade in active">
 									<div class="row">
 										<div class="col-md-12">
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+											<p></p>
 										</div>
 									</div>
 								</div>
@@ -176,7 +176,7 @@ include "header.php";
 								<div id="tab2" class="tab-pane fade in">
 									<div class="row">
 										<div class="col-md-12">
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+											<p></p>
 										</div>
 									</div>
 								</div>
@@ -268,7 +268,6 @@ include "header.php";
 											</div>
 										</div>
 										<!-- /Rating -->
-
 										<!-- Reviews -->
 										<div class="col-md-6">
 											<div id="reviews">
@@ -332,7 +331,6 @@ include "header.php";
 											</div>
 										</div>
 										<!-- /Reviews -->
-
 										<!-- Review Form -->
 										<div class="col-md-3 mainn">
 											<div id="review-form">
@@ -404,12 +402,8 @@ include "header.php";
 					$pro_title = $row['product_title'];
 					$pro_price = $row['product_price'];
 					$pro_image = $row['product_image'];
-
 					$cat_name = $row["cat_title"];
-
 					echo "
-				
-                        
                                 <div class='col-md-3 col-xs-6'>
 								<a href='product.php?p=$pro_id'><div class='product'>
 									<div class='product-img'>
@@ -422,7 +416,7 @@ include "header.php";
 									<div class='product-body'>
 										<p class='product-category'>$cat_name</p>
 										<h3 class='product-name header-cart-item-name'><a href='product.php?p=$pro_id'>$pro_title</a></h3>
-										<h4 class='product-price header-cart-item-info'>$pro_price<del class='product-old-price'>Rp. 90.000</del></h4>
+										<h4 class='product-price header-cart-item-info'>$pro_price</h4>
 										<div class='product-rating'>
 											<i class='fa fa-star'></i>
 											<i class='fa fa-star'></i>
@@ -440,24 +434,18 @@ include "header.php";
 										<button pid='$pro_id' id='product' class='add-to-cart-btn block2-btn-towishlist' href='#'><i class='fa fa-shopping-cart'></i> add to cart</button>
 									</div>
 								</div>
-                                </div>
-							
-                        
+                                </div> 
 			";
 				};
 			}
 			?>
 			<!-- product -->
-
 			<!-- /product -->
-
 		</div>
 		<!-- /row -->
-
 	</div>
 	<!-- /container -->
 </div>
-
 <?php
 include "footer.php";
 
