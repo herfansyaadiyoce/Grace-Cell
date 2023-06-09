@@ -129,7 +129,7 @@ include "header.php";
 						<label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
 						<input type="text" id="adr" name="address" class="form-control" value="' . $row["address1"] . '" required>
 						<label for="city"><i class="fa fa-institution"></i> City</label>
-						<input type="text" id="city" name="city" class="form-control" value="' . $row["address2"] . '" pattern="^[a-zA-Z ]+$" required>
+						
 
 						<div class="row">
 						<div class="col-50">

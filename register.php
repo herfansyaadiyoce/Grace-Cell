@@ -16,7 +16,7 @@ if (isset($_POST["f_name"])) {
 
 	if (
 		empty($f_name) || empty($l_name) || empty($email) || empty($password) || empty($repassword) ||
-		empty($mobile) || empty($address1) || empty($address2)
+		empty($mobile) || empty($address1) 
 	) 
 
 		
@@ -108,9 +108,9 @@ if (isset($_POST["f_name"])) {
 
 			$sql = "INSERT INTO `user_info` 
 		(`user_id`, `first_name`, `last_name`, `email`, 
-		`password`, `mobile`, `address1`, `address2`) 
+		`password`, `mobile`, `address1`) 
 		VALUES (NULL, '$f_name', '$l_name', '$email', 
-		'$password', '$mobile', '$address1', '$address2')";
+		'$password', '$mobile', '$address1')";
 			$run_query = mysqli_query($con, $sql);
 			$_SESSION["uid"] = mysqli_insert_id($con);
 			$_SESSION["name"] = $f_name;
