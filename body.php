@@ -10,11 +10,11 @@
 				</div>
 
 				<div class="item">
-					<img src="img/banner1.jpg" style="width:100%;">
+					<img src="img/banner2.png" style="width:100%;">
 				</div>
 
 				<div class="item">
-					<img src="img/banner4.jpg" alt="New York" style="width:100%;">
+					<img src="img/banner3.png" alt="New York" style="width:100%;">
 				</div>
 
 			</div>

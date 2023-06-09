@@ -123,9 +123,9 @@ include "header.php";
 					<div class="col-50">
 						<h3>Billing Address</h3>
 						<label for="fname"><i class="fa fa-user" ></i> Full Name</label>
-						<input type="text" id="fname" class="form-control" name="firstname" pattern="^[a-zA-Z ]+$"  value="' . $row["first_name"] . ' ' . $row["last_name"] . '">
+						<input type="text" id="fname" class="form-control" name="firstname" pattern="^[a-zA-Z ]+Rp. "  value="' . $row["first_name"] . ' ' . $row["last_name"] . '">
 						<label for="email"><i class="fa fa-envelope"></i> Email</label>
-						<input type="text" id="email" name="email" class="form-control" pattern="^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9]+(\.[a-z]{2,4})$" value="' . $row["email"] . '" required>
+						<input type="text" id="email" name="email" class="form-control" pattern="^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9]+(\.[a-z]{2,4})Rp. " value="' . $row["email"] . '" required>
 						<label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
 						<input type="text" id="adr" name="address" class="form-control" value="' . $row["address1"] . '" required>
 						<label for="city"><i class="fa fa-institution"></i> City</label>
@@ -134,11 +134,11 @@ include "header.php";
 						<div class="row">
 						<div class="col-50">
 							<label for="state">State</label>
-							<input type="text" id="state" name="state" class="form-control" pattern="^[a-zA-Z ]+$" required>
+							<input type="text" id="state" name="state" class="form-control" pattern="^[a-zA-Z ]+Rp. " required>
 						</div>
 						<div class="col-50">
 							<label for="zip">Zip</label>
-							<input type="text" id="zip" name="zip" class="form-control" pattern="^[0-9]{6}(?:-[0-9]{4})?$" required>
+							<input type="text" id="zip" name="zip" class="form-control" pattern="^[0-9]{6}(?:-[0-9]{4})?Rp. " required>
 						</div>
 						</div>
 					</div>
@@ -156,14 +156,14 @@ include "header.php";
 						
 						
 						<label for="cname">Name on Card</label>
-						<input type="text" id="cname" name="cardname" class="form-control" pattern="^[a-zA-Z ]+$" required>
+						<input type="text" id="cname" name="cardname" class="form-control" pattern="^[a-zA-Z ]+Rp. " required>
 						
 						<div class="form-group" id="card-number-field">
                         <label for="cardNumber">Card Number</label>
                         <input type="text" class="form-control" id="cardNumber" name="cardNumber" required>
                     </div>
 						<label for="expdate">Exp Date</label>
-						<input type="text" id="expdate" name="expdate" class="form-control" pattern="^((0[1-9])|(1[0-2]))\/(\d{2})$" placeholder="12/22"required>
+						<input type="text" id="expdate" name="expdate" class="form-control" pattern="^((0[1-9])|(1[0-2]))\/(\d{2})Rp. " placeholder="12/22"required>
 						
 
 						<div class="row">
@@ -269,7 +269,7 @@ include "header.php";
 				</table>
 				<hr>
 				
-				<h3>total<span class='price' style='color:black'><b>$$total</b></span></h3>";
+				<h3>total<span class='price' style='color:black'><b>Rp. $total</b></span></h3>";
 					}
 					?>
 				</div>

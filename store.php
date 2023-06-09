@@ -27,7 +27,6 @@ include 'header.php';
 				if (e.which === 8 && (elm !== 'input' && elm !== 'textarea')) {
 					e.preventDefault();
 				}
-				// stopping event bubbling up the DOM tree..
 				e.stopPropagation();
 			};
 		};
@@ -47,7 +46,7 @@ include 'header.php';
 					</div>
 					<!-- aside Widget -->
 					<div class="aside">
-						<h3 class="aside-title">Price</h3>
+						<h3 class="aside-title">HARGA</h3>
 						<div class="price-filter">
 							<div id="price-slider" class="noUi-target noUi-ltr noUi-horizontal">
 								<div class="noUi-base">
@@ -79,9 +78,6 @@ include 'header.php';
 					<div class="aside">
 						<h3 class="aside-title">Penjualan Terbaik</h3>
 						<div id="get_product_home">
-							<!-- product widget -->
-
-							<!-- product widget -->
 						</div>
 					</div>
 					<!-- /aside Widget -->
@@ -93,14 +89,6 @@ include 'header.php';
 					<!-- store top filter -->
 					<div class="store-filter clearfix">
 						<div class="store-sort">
-							<label>
-								Sort By:
-								<select class="input-select">
-									<option value="0">Popular</option>
-									<option value="1">Position</option>
-								</select>
-							</label>
-
 							<label>
 								Show:
 								<select class="input-select">
@@ -115,7 +103,6 @@ include 'header.php';
 						</ul>
 					</div>
 					<!-- /store top filter -->
-
 					<!-- store products -->
 					<div class="row" id="product-row">
 						<div class="col-md-12 col-xs-12" id="product_msg">
@@ -124,17 +111,13 @@ include 'header.php';
 						<div id="get_product">
 							<!--Here we get product jquery Ajax Request-->
 						</div>
-
 						<!-- /product -->
 					</div>
-					<!-- /store products -->
-
 					<!-- store bottom filter -->
 					<div class="store-filter clearfix">
 						<span class="store-qty">Showing 20-100 products</span>
 						<ul class="store-pagination" id="pageno">
 							<li><a class="active" href="#aside">1</a></li>
-
 							<li><a href="#"><i class="fa fa-angle-right"></i></a></li>
 						</ul>
 					</div>

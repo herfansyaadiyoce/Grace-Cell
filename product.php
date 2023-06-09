@@ -68,23 +68,17 @@ include "header.php";
 			if (mysqli_num_rows($result) > 0) {
 				while ($row = mysqli_fetch_assoc($result)) {
 					echo '
-									
-                                    
-                                
                                 <div class="col-md-5 col-md-push-2">
                                 <div id="product-main-img">
                                     <div class="product-preview">
                                         <img src="product_images/' . $row['product_image'] . '" alt="">
                                     </div>
-
                                     <div class="product-preview">
                                         <img src="product_images/' . $row['product_image'] . '" alt="">
                                     </div>
-
                                     <div class="product-preview">
                                         <img src="product_images/' . $row['product_image'] . '" alt="">
                                     </div>
-
                                     <div class="product-preview">
                                         <img src="product_images/' . $row['product_image'] . '" alt="">
                                     </div>
@@ -96,15 +90,12 @@ include "header.php";
                                     <div class="product-preview">
                                         <img src="product_images/' . $row['product_image'] . '" alt="">
                                     </div>
-
                                     <div class="product-preview">
                                         <img src="product_images/' . $row['product_image'] . '" alt="">
                                     </div>
-
                                     <div class="product-preview">
                                         <img src="product_images/' . $row['product_image'] . 'g" alt="">
                                     </div>
-
                                     <div class="product-preview">
                                         <img src="product_images/' . $row['product_image'] . '" alt="">
                                     </div>
@@ -118,10 +109,7 @@ include "header.php";
 					<!-- FlexSlider -->
 
 			<?php
-					echo '
-									
-                                    
-                                   
+					echo '     
                     <div class="col-md-5">
 						<div class="product-details">
 							<h2 class="product-name">' . $row['product_title'] . '</h2>
@@ -136,61 +124,15 @@ include "header.php";
 								<a class="review-link" href="#review-form">10 Review(s) | Add your review</a>
 							</div>
 							<div>
-								<h3 class="product-price">$' . $row['product_price'] . '<del class="product-old-price">$990.00</del></h3>
-								<span class="product-available">In Stock</span>
+								<h3 class="product-price">Rp. ' . $row['product_price'] . '</h3>
+								<span class="product-available">Stock Tersedia</span>
 							</div>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
-							<div class="product-options">
-								<label>
-									Size
-									<select class="input-select">
-										<option value="0">X</option>
-									</select>
-								</label>
-								<label>
-									Color
-									<select class="input-select">
-										<option value="0">Red</option>
-									</select>
-								</label>
-							</div>
-
 							<div class="add-to-cart">
-								<div class="qty-label">
-									Qty
-									<div class="input-number">
-										
-										<span class="qty-up">+</span>
-										<span class="qty-down">-</span>
-									</div>
-								</div>
 								<div class="btn-group" style="margin-left: 25px; margin-top: 15px">
 								<button class="add-to-cart-btn" pid="' . $row['product_id'] . '"  id="product" ><i class="fa fa-shopping-cart"></i> add to cart</button>
                                 </div>
-								
-								
 							</div>
-
-							<ul class="product-btns">
-								<li><a href="#"><i class="fa fa-heart-o"></i> add to wishlist</a></li>
-								<li><a href="#"><i class="fa fa-exchange"></i> add to compare</a></li>
-							</ul>
-
-							<ul class="product-links">
-								<li>Category:</li>
-								<li><a href="#">Headphones</a></li>
-								<li><a href="#">Accessories</a></li>
-							</ul>
-
-							<ul class="product-links">
-								<li>Share:</li>
-								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-								<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-								<li><a href="#"><i class="fa fa-envelope"></i></a></li>
-							</ul>
-
 						</div>
 					</div>
 									
@@ -425,7 +367,7 @@ include "header.php";
 				<!-- /row -->
 			</div>
 			<!-- /container -->
-		</div>
+		</div> 
 		<!-- /SECTION -->
 
 		<!-- Section -->
@@ -480,7 +422,7 @@ include "header.php";
 									<div class='product-body'>
 										<p class='product-category'>$cat_name</p>
 										<h3 class='product-name header-cart-item-name'><a href='product.php?p=$pro_id'>$pro_title</a></h3>
-										<h4 class='product-price header-cart-item-info'>$pro_price<del class='product-old-price'>$990.00</del></h4>
+										<h4 class='product-price header-cart-item-info'>$pro_price<del class='product-old-price'>Rp. 90.000</del></h4>
 										<div class='product-rating'>
 											<i class='fa fa-star'></i>
 											<i class='fa fa-star'></i>

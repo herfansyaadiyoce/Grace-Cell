@@ -128,7 +128,6 @@ session_start();
                                <div class="dropdownn">
                                   <a href="#" class="dropdownn" data-toggle="modal" data-target="#myModal" ><i class="fa fa-user-o"></i> HI ' . $row["first_name"] . '</a>
                                   <div class="dropdownn-content">
-                                    <a href="" data-toggle="modal" data-target="#profile"><i class="fa fa-user-circle" aria-hidden="true" ></i>My Profile</a>
                                     <a href="logout.php"  ><i class="fa fa-sign-in" aria-hidden="true"></i>Log out</a>
                                     
                                   </div>
@@ -170,15 +169,10 @@ session_start();
 							</a>
 						</div>
 					</div>
-					<!-- /LOGO -->
-
-
 
 					<!-- ACCOUNT -->
 					<div class="col-md-3 clearfix">
 						<div class="header-ctn">
-
-
 							<!-- Cart -->
 							<div class="dropdown">
 								<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
@@ -193,10 +187,8 @@ session_start();
 										<a href="cart.php" style="width:100%;"><i class="fa fa-edit"></i> Edit Pesanan </a>
 									</div>
 								</div>
-
 							</div>
 							<!-- /Cart -->
-
 							<!-- Menu Toogle -->
 							<div class="menu-toggle">
 								<a href="#">
@@ -230,43 +222,31 @@ session_start();
 
 	<div class="modal fade" id="Modal_login" role="dialog">
 		<div class="modal-dialog">
-
 			<!-- Modal content-->
 			<div class="modal-content">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal">&times;</button>
-
 				</div>
 				<div class="modal-body">
 					<?php
 					include "login_form.php";
-
 					?>
-
 				</div>
-
 			</div>
-
 		</div>
 	</div>
 	<div class="modal fade" id="Modal_register" role="dialog">
 		<div class="modal-dialog" style="">
-
 			<!-- Modal content-->
 			<div class="modal-content">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal">&times;</button>
-
 				</div>
 				<div class="modal-body">
 					<?php
 					include "register_form.php";
-
 					?>
-
 				</div>
-
 			</div>
-
 		</div>
 	</div>
