@@ -16,16 +16,13 @@
 					</div>
 				</div>
 				<div class="col-md-6 text-center" style="margin-top:80px;">
-
 					<span class="copyright">
 						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 						Copyright &copy;<script>
 							document.write(new Date().getFullYear());
 						</script> All rights reserved
-
 					</span>
 				</div>
-
 				<div class="col-md-3 col-xs-6">
 					<div class="footer">
 						<h3 class="footer-title">Aksesoris </h3>
@@ -38,10 +35,7 @@
 						</ul>
 					</div>
 				</div>
-
 				<div class="clearfix visible-xs"></div>
-
-
 			</div>
 			<!-- /row -->
 		</div>
