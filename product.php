@@ -102,7 +102,6 @@ include "header.php";
                             </div>
     					';
 			?>
-					<!-- FlexSlider -->
 			<?php
 					echo '     
                     <div class="col-md-5">
@@ -112,7 +111,7 @@ include "header.php";
 								<h3 class="product-price">Rp. ' . $row['product_price'] . '</h3>
 								<span class="product-available">Stock Tersedia</span>
 							</div>
-							<p>KONTOL.</p>
+							<p>Deskrpsi.</p>
 							<div class="add-to-cart">
 								<div class="btn-group" style="margin-left: 25px; margin-top: 15px">
 								<button class="add-to-cart-btn" pid="' . $row['product_id'] . '"  id="product" ><i class="fa fa-shopping-cart"></i> add to cart</button>

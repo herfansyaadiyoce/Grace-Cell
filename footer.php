@@ -27,11 +27,11 @@
 					<div class="footer">
 						<h3 class="footer-title">Aksesoris </h3>
 						<ul class="footer-links">
-							<li><a href="#">Hardcase</a></li>
-							<li><a href="#">Softcase</a></li>
-							<li><a href="#">Charger</a></li>
-							<li><a href="#">Powerbank</a></li>
-							<li><a href="#">Headset</a></li>
+							<li><a href="store.php">Hardcase</a></li>
+							<li><a href="store.php">Softcase</a></li>
+							<li><a href="store.php">Charger</a></li>
+							<li><a href="store.php">Powerbank</a></li>
+							<li><a href="store.php">Headset</a></li>
 						</ul>
 					</div>
 				</div>
