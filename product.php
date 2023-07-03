@@ -115,7 +115,7 @@ include "header.php";
 							<p>Deskrpsi.</p>
 							<div class="add-to-cart">
 								<div class="btn-group" style="margin-left: 25px; margin-top: 15px">
-								<button class="add-to-cart-btn" onclick="https://wa.me/+6281804192454" pid="' . $row['product_id'] . '"  id="product" ><i class="fa fa-shopping-cart"></i> add to cart</button>
+								<button type="button" class="add-to-cart-btn" onclick="https://wa.me/+6281804192454" pid="' . $row['product_id'] . '"  id="product" ><i class="fa fa-shopping-cart"></i> add to cart</button>
                                 </div>
 							</div>
 						</div>
