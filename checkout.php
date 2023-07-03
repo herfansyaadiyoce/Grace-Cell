@@ -136,34 +136,6 @@ include "header.php";
 						</div>
 					</div>
 					
-					
-					<div class="col-50">
-						<h3>Payment</h3>
-						<label for="fname">Accepted Cards</label>
-						<div class="icon-container">
-						<i class="fa fa-cc-visa" style="color:navy;"></i>
-						<i class="fa fa-cc-amex" style="color:blue;"></i>
-						<i class="fa fa-cc-mastercard" style="color:red;"></i>
-						<i class="fa fa-cc-discover" style="color:orange;"></i>
-						</div>
-						
-						
-						<label for="cname">Name on Card</label>
-						<input type="text" id="cname" name="cardname" class="form-control" pattern="^[a-zA-Z ]+Rp. " required>
-						
-						<div class="form-group" id="card-number-field">
-                        <label for="cardNumber">Card Number</label>
-                        <input type="text" class="form-control" id="cardNumber" name="cardNumber" required>
-                    </div>
-						<label for="expdate">Exp Date</label>
-						<input type="text" id="expdate" name="expdate" class="form-control" pattern="^((0[1-9])|(1[0-2]))\/(\d{2})Rp. " placeholder="12/22"required>					
-						<div class="row">						
-						<div class="col-50">
-							<div class="form-group CVV">
-								<label for="cvv">CVV</label>
-								<input type="text" class="form-control" name="cvv" id="cvv" required>
-						</div>
-						</div>
 					</div>
 					</div>
 					</div>
@@ -192,7 +164,8 @@ include "header.php";
 				echo '	
 				<input type="hidden" name="total_count" value="' . $total_count . '">
 					<input type="hidden" name="total_price" value="' . $total . '">
-					<input type="submit" id="submit" value="Continue to checkout" class="checkout-btn">
+					<input type="submit" id="submit" value="Continue to checkout" class="checkout-btn" >
+					<a href="https://wa.me/+6281804192454">KLIK WA </a>
 				</form>
 				</div>
 			</div>
