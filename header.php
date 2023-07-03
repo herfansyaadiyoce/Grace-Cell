@@ -123,7 +123,6 @@ session_start();
 							$sql = "SELECT first_name FROM user_info WHERE user_id='$_SESSION[uid]'";
 							$query = mysqli_query($con, $sql);
 							$row = mysqli_fetch_array($query);
-
 							echo '
                                <div class="dropdownn">
                                   <a href="#" class="dropdownn" data-toggle="modal" data-target="#myModal" ><i class="fa fa-user-o"></i> HI ' . $row["first_name"] . '</a>
@@ -143,16 +142,11 @@ session_start();
                                 </div>';
 						}
 						?>
-
 					</li>
 				</ul>
-
 			</div>
 		</div>
 		<!-- /TOP HEADER -->
-
-
-
 		<!-- MAIN HEADER -->
 		<div id="header">
 			<!-- container -->

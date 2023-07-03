@@ -44,7 +44,7 @@
 					<a href="product.php?p=78">
 						<div class="shop">
 							<div class="shop-img">
-								<img src="./img/shop01.png" alt="">
+								<img src="./img/Produk CG(1).jpg" alt="">
 							</div>
 							<div class="shop-body">
 								<h3>Charger</h3>
@@ -60,7 +60,7 @@
 					<a href="product.php?p=72">
 						<div class="shop">
 							<div class="shop-img">
-								<img src="./img/shop03.png" alt="">
+								<img src="./img/Produk HS(1).jpg" alt="">
 							</div>
 							<div class="shop-body">
 								<h3>Headset</h3>
@@ -76,7 +76,7 @@
 					<a href="product.php?p=79">
 						<div class="shop">
 							<div class="shop-img">
-								<img src="./img/shop02.png" alt="">
+								<img src="./img/Produk PB(1).jpg" alt="">
 							</div>
 							<div class="shop-body">
 								<h3>Powerbank</h3>
@@ -117,15 +117,11 @@
 							<!-- tab -->
 							<div id="tab1" class="tab-pane active">
 								<div class="products-slick" data-nav="#slick-nav-1">
-
 									<?php
 									include 'db.php';
-
-
 									$product_query = "SELECT * FROM products,categories WHERE product_cat=cat_id AND product_id BETWEEN 70 AND 75";
 									$run_query = mysqli_query($con, $product_query);
 									if (mysqli_num_rows($run_query) > 0) {
-
 										while ($row = mysqli_fetch_array($run_query)) {
 											$pro_id    = $row['product_id'];
 											$pro_cat   = $row['product_cat'];
@@ -133,9 +129,7 @@
 											$pro_title = $row['product_title'];
 											$pro_price = $row['product_price'];
 											$pro_image = $row['product_image'];
-
 											$cat_name = $row["cat_title"];
-
 											echo " 
 								<div class='product'>
 									<a href='product.php?p=$pro_id'><div class='product-img'>
@@ -156,7 +150,6 @@
 											<i class=''></i>
 											<i class=''></i>
 										</div>
-
 									</div>
 									<div class='add-to-cart'>
 										<button pid='$pro_id' id='product' class='add-to-cart-btn block2-btn-towishlist' href='#'><i class='fa fa-shopping-cart'></i> Tambah Keranjang </button>
@@ -250,7 +243,6 @@
 									$product_query = "SELECT * FROM products,categories WHERE product_cat=cat_id AND product_id BETWEEN 59 AND 65";
 									$run_query = mysqli_query($con, $product_query);
 									if (mysqli_num_rows($run_query) > 0) {
-
 										while ($row = mysqli_fetch_array($run_query)) {
 											$pro_id    = $row['product_id'];
 											$pro_cat   = $row['product_cat'];
@@ -258,9 +250,7 @@
 											$pro_title = $row['product_title'];
 											$pro_price = $row['product_price'];
 											$pro_image = $row['product_image'];
-
 											$cat_name = $row["cat_title"];
-
 											echo "
 								<div class='product'>
 									<a href='product.php?p=$pro_id'><div class='product-img'>
@@ -290,8 +280,6 @@
 										};
 									}
 									?>
-
-
 									<!-- /product -->
 								</div>
 								<div id="slick-nav-2" class="products-slick-nav"></div>
