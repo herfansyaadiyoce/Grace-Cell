@@ -129,11 +129,7 @@ include "header.php";
 							<label for="state">Negara</label>
 							<input type="text" id="state" name="state" class="form-control" pattern="^[a-zA-Z ]+Rp. " required>
 						</div>
-						<div class="col-50">
-							<label for="zip">Zip</label>
-							<input type="text" id="zip" name="zip" class="form-control" pattern="^[0-9]{6}(?:-[0-9]{4})?Rp. " required>
-						</div>
-						</div>
+					
 					</div>
 					
 					</div>
@@ -165,6 +161,7 @@ include "header.php";
 				<input type="hidden" name="total_count" value="' . $total_count . '">
 					<input type="hidden" name="total_price" value="' . $total . '">
 					<input type="submit" id="submit" value="Continue to checkout" class="checkout-btn" >
+					<a href="https://wa.me/+6281804192454">KLIK WA </a>
 				</form>
 				</div>
 			</div>

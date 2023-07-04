@@ -73,11 +73,8 @@ if (isset($_POST["email"]) && isset($_POST["password"])) {
 			$_SESSION["name"] = $row["admin_name"];
 			$ip_add = getenv("REMOTE_ADDR");
 			//we have created a cookie in login_form.php page so if that cookie is available means user is not login
-
-
 			//if user is login from page we will send login_success
 			echo "login_success";
-
 			echo "<script> location.href='admin/addproduct.php'; </script>";
 			exit;
 		} else {

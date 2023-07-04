@@ -356,10 +356,10 @@ if (isset($_POST["Common"])) {
 	               <table id="cart" class="table table-hover table-condensed" id="">
     				<thead>
 						<tr>
-							<th style="width:50%">Product</th>
-							<th style="width:10%">Price</th>
-							<th style="width:8%">Quantity</th>
-							<th style="width:7%" class="text-center">Subtotal</th>
+							<th style="width:50%">Produk</th>
+							<th style="width:10%">Harga</th>
+							<th style="width:8%">Jumlah</th>
+							<th style="width:7%" class="text-center">Total</th>
 							<th style="width:10%"></th>
 						</tr>
 					</thead>
@@ -384,11 +384,6 @@ if (isset($_POST["Common"])) {
 								
 									<div class="col-sm-4 "><img src="product_images/' . $product_image . '" style="height: 70px;width:75px;"/>
 									<h4 class="nomargin product-name header-cart-item-name"><a href="product.php?p=' . $product_id . '">' . $product_title . '</a></h4>
-									</div>
-									<div class="col-sm-6">
-										<div style="max-width=50px;">
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
-										</div>
 									</div>
 									
 									
@@ -463,7 +458,10 @@ if (isset($_POST["Common"])) {
 									<input type="hidden" name="cancel_return" value="http://localhost/myfiles/public_html/cancel.php"/>
 									<input type="hidden" name="currency_code" value="USD"/>
 									<input type="hidden" name="custom" value="' . $_SESSION["uid"] . '"/>
-									<input type="submit" id="submit" name="login_user_with_product" name="submit" class="btn btn-success" value="Ready to Checkout">
+									
+									<a href="https://wa.me/+6281804192454"" target="_blank" class="btn btn-success">
+									<img src="img/waa.png" alt="WhatsApp" width="15%"> Info Stock & Order
+
 									</form></td>
 									
 									</tr>
