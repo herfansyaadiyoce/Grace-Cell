@@ -112,10 +112,10 @@ include "header.php";
 								<h3 class="product-price">Rp. ' . $row['product_price'] . '</h3>
 								<span class="product-available">Stock Tersedia</span>
 							</div>
-							<p>Deskrpsi.</p>
+							<p>Silahkan Hubungi Via Whatsapp Untuk Melakukan Order Barang</p>
 							<div class="add-to-cart">
 								<div class="btn-group" style="margin-left: 25px; margin-top: 15px">
-								<button type="button" class="add-to-cart-btn" onclick="https://wa.me/+6281804192454" pid="' . $row['product_id'] . '"  id="product" ><i class="fa fa-shopping-cart"></i> add to cart</button>
+								<button class="add-to-cart-btn" onclick="https://wa.me/+6281804192454" pid="' . $row['product_id'] . '"  id="product" ><i class="fa fa-shopping-cart"></i> add to cart</button>
                                 </div>
 							</div>
 						</div>
@@ -126,7 +126,7 @@ include "header.php";
 						<div id="product-tab">
 							<!-- product tab nav -->
 							<ul class="tab-nav">
-								<li class="active"><a data-toggle="tab" href="#tab1">Deskripsi</a></li>
+							
 							</ul>
 							<!-- /product tab nav -->
 							<!-- product tab content -->
@@ -140,7 +140,7 @@ include "header.php";
 									</div>
 								</div>
 								<!-- /tab1  -->
-								<p>Penyuara telinga adalah sepasang pengeras suara kecil yang digunakan sangat dekat dengan telinga. Pada bidang-bidang tertentu, perangkat ini juga dikenal dengan istilah lain, yaitu penyuara kuping, fon telinga, peranti dengar atau pelantang telinga.</p>
+								<p>HATI HATI DALAM MEMILIH BARANG WASPADAHALHHH.</p>
 							</div>
 							<!-- /product tab content  -->
 						</div>
@@ -197,7 +197,6 @@ include "header.php";
 										<p class='product-category'>$cat_name</p>
 										<h3 class='product-name header-cart-item-name'><a href='product.php?p=$pro_id'>$pro_title</a></h3>
 										<h4 class='product-price header-cart-item-info'>$pro_price</h4>
-
 										<div class='product-btns'>
 											<button class='add-to-wishlist'><i class='fa fa-heart-o'></i><span class='tooltipp'>add to wishlist</span></button>
 											<button class='add-to-compare'><i class='fa fa-exchange'></i><span class='tooltipp'>add to compare</span></button>

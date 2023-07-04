@@ -4,21 +4,16 @@
 			<!-- Indicators -->
 			<!-- Wrapper for slides -->
 			<div class="carousel-inner">
-
 				<div class="item active">
 					<img src="img/banner1.jpg" alt="Los Angeles" style="width:100%;">
 				</div>
-
 				<div class="item">
 					<img src="img/banner2.png" style="width:100%;">
 				</div>
-
 				<div class="item">
 					<img src="img/banner3.png" alt="New York" style="width:100%;">
 				</div>
-
 			</div>
-
 			<!-- Left and right controls -->
 			<a class="left carousel-control _26sdfg" href="#myCarousel" data-slide="prev">
 				<span class="glyphicon glyphicon-chevron-left"></span>
@@ -54,7 +49,6 @@
 					</a>
 				</div>
 				<!-- /shop -->
-
 				<!-- shop -->
 				<div class="col-md-4 col-xs-6">
 					<a href="product.php?p=72">
@@ -70,7 +64,6 @@
 					</a>
 				</div>
 				<!-- /shop -->
-
 				<!-- shop -->
 				<div class="col-md-4 col-xs-6">
 					<a href="product.php?p=79">
@@ -96,7 +89,6 @@
 		<div class="container">
 			<!-- row -->
 			<div class="row">
-
 				<!-- section title -->
 				<div class="col-md-12">
 					<div class="section-title">
@@ -109,7 +101,6 @@
 					</div>
 				</div>
 				<!-- /section title -->
-
 				<!-- Products tab & slick -->
 				<div class="col-md-12 mainn mainn-raised">
 					<div class="row">

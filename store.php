@@ -53,21 +53,8 @@ include 'header.php';
 					<!-- /aside Widget -->
 				</div>
 				<!-- /ASIDE -->
-
 				<!-- STORE -->
 				<div id="store" class="col-md-9">
-					<!-- store top filter -->
-					<div class="store-filter clearfix">
-						<div class="store-sort">
-							<label>
-								Show:
-								<select class="input-select">
-									<option value="0">1</option>
-									<option value="1">2</option>
-								</select>
-							</label>
-						</div>
-					</div>
 					<!-- /store top filter -->
 					<!-- store products -->
 					<div class="row" id="product-row">

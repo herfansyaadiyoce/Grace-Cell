@@ -284,7 +284,6 @@ if (isset($_POST["count_item"])) {
 		//When user is not logged in then we will count number of item in cart by using users unique ip address
 		$sql = "SELECT COUNT(*) AS count_item FROM cart WHERE ip_add = '$ip_add' AND user_id < 0";
 	}
-
 	$query = mysqli_query($con, $sql);
 	$row = mysqli_fetch_array($query);
 	echo $row["count_item"];
@@ -309,7 +308,6 @@ if (isset($_POST["Common"])) {
 			$n = 0;
 			$total_price = 0;
 			while ($row = mysqli_fetch_array($query)) {
-
 				$n++;
 				$product_id = $row["product_id"];
 				$product_title = $row["product_title"];

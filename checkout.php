@@ -165,7 +165,6 @@ include "header.php";
 				<input type="hidden" name="total_count" value="' . $total_count . '">
 					<input type="hidden" name="total_price" value="' . $total . '">
 					<input type="submit" id="submit" value="Continue to checkout" class="checkout-btn" >
-					<a href="https://wa.me/+6281804192454">KLIK WA </a>
 				</form>
 				</div>
 			</div>
@@ -192,8 +191,8 @@ include "header.php";
 					<thead><tr>
 					<th >no</th>
 					<th >product title</th>
-					<th >	qty	</th>
-					<th >	amount</th></tr>
+					<th >qty</th>
+					<th >amount</th></tr>
 					</thead>
 					<tbody>
 					";
