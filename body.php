@@ -82,7 +82,6 @@
 		</div>
 	</div>s
 
-
 	<!-- SECTION -->
 	<div class="section">
 		<!-- container -->
@@ -110,7 +109,7 @@
 								<div class="products-slick" data-nav="#slick-nav-1">
 									<?php
 									include 'db.php';
-									$product_query = "SELECT * FROM products,categories WHERE product_cat=cat_id AND product_id BETWEEN 70 AND 75";
+									$product_query = "SELECT * FROM products,categories WHERE product_cat=cat_id AND product_id BETWEEN 1 AND 3";
 									$run_query = mysqli_query($con, $product_query);
 									if (mysqli_num_rows($run_query) > 0) {
 										while ($row = mysqli_fetch_array($run_query)) {
