@@ -115,7 +115,11 @@ include "header.php";
 							<p>Silahkan Hubungi Via Whatsapp Untuk Melakukan Order Barang</p>
 							<div class="add-to-cart">
 								<div class="btn-group" style="margin-left: 25px; margin-top: 15px">
+<<<<<<< HEAD
 								<button class="add-to-cart-btn" onclick="https://wa.me/+6281804192454" pid="' . $row['product_id'] . '"  id="product" ><i class="fa fa-shopping-cart"></i> add to cart</button>
+=======
+								<a href="https://wa.me/+6281804192454"><button type="button" class="add-to-cart-btn" onclick="" pid="' . $row['product_id'] . '"  id="product" ><i class="fa fa-shopping-cart"></i> add to cart</button></a>
+>>>>>>> 42960125abe1f8b006b8e33d76ca742c3daa6485
                                 </div>
 							</div>
 						</div>
