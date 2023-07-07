@@ -128,7 +128,7 @@
 									<div class='product-body'>
 										<p class='product-category'>$cat_name</p>
 										<h3 class='product-name header-cart-item-name'><a href='product.php?p=$pro_id'>$pro_title</a></h3>
-										<h4 class='product-price header-cart-item-info'>Rp. $pro_price</h4>
+										<h4 class='product-price header-cart-item-info'>Rp.$pro_price</h4>
 										<div class='product-rating'>
 											<i class=''></i>
 											<i class=''></i>
