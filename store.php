@@ -62,7 +62,7 @@ include 'header.php';
 						</div>
 						<!-- product -->
 						<div id="get_product">
-							<!--Here we get product jquery Ajax Request-->
+							
 						</div>
 						<!-- /product -->
 					</div>

@@ -74,10 +74,10 @@ if (isset($_GET["st"])) {
 								<div class="panel panel-default">
 									<div class="panel-heading"></div>
 									<div class="panel-body">
-										<h1>Thankyou </h1>
+										<h1>Makasihhh</h1>
 										<hr />
-										<p>Hello <?php echo "<b>" . $_SESSION["name"] . "</b>"; ?>,Pembayaran Sukses <b><?php echo $trx_id; ?></b><br />
-											you can continue your Shopping <br /></p>
+										<p>Hallo <?php echo "<b>" . $_SESSION["name"] . "</b>"; ?>,Pembayaran Sukses <b><?php echo $trx_id; ?></b><br />
+											Kamu Bisa Melanjutkan Belanja<br /></p>
 										<a href="index.php" class="btn btn-success btn-lg">Lanjutkan Belanja</a>
 									</div>
 									<div class="panel-footer"></div>

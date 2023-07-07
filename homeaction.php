@@ -77,7 +77,7 @@ if (isset($_POST["getProducthome"])) {
 									<div class='product-body'>
 										<p class='product-category'>$cat_name</p>
 										<h3 class='product-name'><a href='product.php?p=$pro_id'>$pro_title</a></h3>
-										<h4 class='product-price'>$pro_price<del class='product-old-price'>Rp. 90.000</del></h4>
+									
 									</div></a>
 								</div>
                         
@@ -111,8 +111,6 @@ if (isset($_POST["gethomeProduct"])) {
 			$cat_name = $row["cat_title"];
 
 			echo "
-				
-                        
                                 <div class='col-md-3 col-xs-6'>
 								<a href='product.php?p=$pro_id'><div class='product'>
 									<div class='product-img'>

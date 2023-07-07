@@ -115,8 +115,7 @@ include "header.php";
 							<p>Silahkan Hubungi Via Whatsapp Untuk Melakukan Order Barang</p>
 							<div class="add-to-cart">
 								<div class="btn-group" style="margin-left: 25px; margin-top: 15px">
-								<button class="add-to-cart-btn" onclick="https://wa.me/+6281804192454" pid="' . $row['product_id'] . '"  id="product" ><i class="fa fa-shopping-cart"></i> add to cart</button>
-								<a href="https://wa.me/+6281804192454"><button type="button" class="add-to-cart-btn" onclick="" pid="' . $row['product_id'] . '"  id="product" ><i class="fa fa-shopping-cart"></i> add to cart</button></a>
+								<button class="add-to-cart-btn" onclick="https://wa.me/+6281804192454" pid="' . $row['product_id'] . '"  id="product" ><i class="fa fa-shopping-cart"></i> Masukan Keranjang </button>
                                 </div>
 							</div>
 						</div>
@@ -141,7 +140,7 @@ include "header.php";
 									</div>
 								</div>
 								<!-- /tab1  -->
-								<p>HATI HATI DALAM MEMILIH BARANG WASPADAHALHHH.</p>
+								<p>INFO STOCK BISA DITANYAKAN LANGSUNG LEWAT WHATSAPP.</p>
 							</div>
 							<!-- /product tab content  -->
 						</div>
@@ -205,7 +204,7 @@ include "header.php";
 										</div>
 									</div>
 									<div class='add-to-cart'>
-										<button pid='$pro_id' id='product' class='add-to-cart-btn block2-btn-towishlist' href='#'><i class='fa fa-shopping-cart'></i> add to cart</button>
+										<button pid='$pro_id' id='product' class='add-to-cart-btn block2-btn-towishlist' href='#'><i class='fa fa-shopping-cart'></i> Masukan Keranjang </button>
 									</div>
 								</div>
                                 </div> 

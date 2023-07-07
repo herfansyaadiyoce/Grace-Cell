@@ -7,7 +7,7 @@
 			<div class="row">
 				<div class="col-md-3 col-xs-6">
 					<div class="footer">
-						<h3 class="footer-title">About Us</h3>
+						<h3 class="footer-title">Tentang Kita</h3>
 						<ul class="footer-links">
 							<li><a href="https://goo.gl/maps/zeQaSpoJ7YsxJx7P7"><i class="fa fa-map-marker"></i>Lt 1 Jogjakarta City Mall</a></li>
 							<li><a href="#"><i class="fa fa-phone"></i>0812437244432</a></li>

@@ -36,14 +36,14 @@
 			<div class="row">
 				<!-- shop -->
 				<div class="col-md-4 col-xs-6">
-					<a href="product.php?p=78">
+					<a href="store.php">
 						<div class="shop">
 							<div class="shop-img">
 								<img src="./img/Produk CG(1).jpg" alt="">
 							</div>
 							<div class="shop-body">
 								<h3>Charger</h3>
-								<a href="product.php?p=78" class="cta-btn">Beli Sekarang<i class="fa fa-arrow-circle-right"></i></a>
+								<a href="store.php" class="cta-btn">Beli Sekarang<i class="fa fa-arrow-circle-right"></i></a>
 							</div>
 						</div>
 					</a>
@@ -51,14 +51,14 @@
 				<!-- /shop -->
 				<!-- shop -->
 				<div class="col-md-4 col-xs-6">
-					<a href="product.php?p=72">
+					<a href="store.php">
 						<div class="shop">
 							<div class="shop-img">
 								<img src="./img/Produk HS(1).jpg" alt="">
 							</div>
 							<div class="shop-body">
 								<h3>Headset</h3>
-								<a href="product.php?p=72" class="cta-btn">Beli Sekarang <i class="fa fa-arrow-circle-right"></i></a>
+								<a href="store.php" class="cta-btn">Beli Sekarang <i class="fa fa-arrow-circle-right"></i></a>
 							</div>
 						</div>
 					</a>
@@ -66,14 +66,14 @@
 				<!-- /shop -->
 				<!-- shop -->
 				<div class="col-md-4 col-xs-6">
-					<a href="product.php?p=79">
+					<a href="store.php">
 						<div class="shop">
 							<div class="shop-img">
 								<img src="./img/Produk PB(1).jpg" alt="">
 							</div>
 							<div class="shop-body">
 								<h3>Powerbank</h3>
-								<a href="product.php?p=79" class="cta-btn">Beli Sekarang <i class="fa fa-arrow-circle-right"></i></a>
+								<a href="store.php" class="cta-btn">Beli Sekarang <i class="fa fa-arrow-circle-right"></i></a>
 							</div>
 						</div>
 					</a>
@@ -109,7 +109,7 @@
 								<div class="products-slick" data-nav="#slick-nav-1">
 									<?php
 									include 'db.php';
-									$product_query = "SELECT * FROM products,categories WHERE product_cat=cat_id AND product_id BETWEEN 1 AND 3";
+									$product_query = "SELECT * FROM products,categories WHERE product_cat=cat_id AND product_id BETWEEN 1 AND 4";
 									$run_query = mysqli_query($con, $product_query);
 									if (mysqli_num_rows($run_query) > 0) {
 										while ($row = mysqli_fetch_array($run_query)) {
@@ -124,15 +124,11 @@
 								<div class='product'>
 									<a href='product.php?p=$pro_id'><div class='product-img'>
 										<img src='product_images/$pro_image' style='max-height: 170px;' alt=''>
-										<div class='product-label'>
-											<span class='sale'>-30%</span>
-											<span class='new'>NEW</span>
-										</div>
 									</div></a>
 									<div class='product-body'>
 										<p class='product-category'>$cat_name</p>
 										<h3 class='product-name header-cart-item-name'><a href='product.php?p=$pro_id'>$pro_title</a></h3>
-										<h4 class='product-price header-cart-item-info'>$pro_price<del class='product-old-price'>Rp 4.000.000</del></h4>
+										<h4 class='product-price header-cart-item-info'>Rp. $pro_price</h4>
 										<div class='product-rating'>
 											<i class=''></i>
 											<i class=''></i>
@@ -246,8 +242,8 @@
 									<a href='product.php?p=$pro_id'><div class='product-img'>
 										<img src='product_images/$pro_image' style='max-height: 170px;' alt=''>
 										<div class='product-label'>
-											<span class='sale'>-30%</span>
-											<span class='new'>NEW</span>
+											// <span class='sale'>-30%</span>
+											// <span class='new'>NEW</span>
 										</div>
 									</div></a>
 									
