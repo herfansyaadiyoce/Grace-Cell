@@ -26,7 +26,7 @@
   -->
       <div class="logo">
         <a href="" class="simple-text logo-normal">
-          PuneethReddy
+          RARA CELL
         </a>
       </div>
       <div class="sidebar-wrapper ps-container ps-theme-default" data-ps-id="3a8db1f4-24d8-4dbf-85c9-4f5215c1b29a">
@@ -51,12 +51,6 @@
             
           </li>
           
-          <li class="nav-item ">
-            <a class="nav-link" href="orders.php">
-              <i class="material-icons">library_books</i>
-              <p>Orders</p>
-            </a>
-          </li>
           <li class="nav-item ">
             <a class="nav-link" href="addproduct.php">
               <i class="material-icons">add</i>

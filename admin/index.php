@@ -80,7 +80,7 @@ include "topheader.php";
               </div>
             </div>
           </div>
-          <div class="col-md-6">
+          <!-- <div class="col-md-6">
             <div class="card ">
               <div class="card-header card-header-primary">
                 <h4 class="card-title">Brands List</h4>
@@ -146,8 +146,8 @@ include "topheader.php";
            
             
           
-        </div>
+        </div> -->
       </div>
-      <?php
+      <!-- <?php
 include "footer.php";
-?>
+?> -->
