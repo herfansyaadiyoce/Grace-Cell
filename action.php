@@ -221,7 +221,7 @@ if (isset($_POST["addToCart"])) {
 				echo "
 					<div class='alert alert-success'>
 						<a href='#' class='close' data-dismiss='alert' aria-label='close'>&times;</a>
-						<b>Product is Added..!</b>
+						<b>Produk Sudah Ditambahkan Dikeranjang</b>
 					</div>
 				";
 			}
