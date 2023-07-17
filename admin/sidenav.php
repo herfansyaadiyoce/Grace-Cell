@@ -13,7 +13,7 @@
   <!-- Material Kit CSS -->
   <link href="assets/css/material-dashboard.css?v=2.1.0" rel="stylesheet" />
   <link href="assets/css/black-dashboard.css" rel="stylesheet" />
-  
+
 </head>
 
 <body class="dark-edition">
@@ -48,9 +48,9 @@
               <i class="material-icons">list</i>
               <p>Product List</p>
             </a>
-            
+
           </li>
-          
+
           <li class="nav-item ">
             <a class="nav-link" href="addproduct.php">
               <i class="material-icons">add</i>
@@ -78,5 +78,3 @@
         </ul>
       </div>
     </div>
-    
-    

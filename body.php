@@ -109,7 +109,7 @@
 								<div class="products-slick" data-nav="#slick-nav-1">
 									<?php
 									include 'db.php';
-									$product_query = "SELECT * FROM products,categories WHERE product_cat=cat_id AND product_id BETWEEN 1 AND 4";
+									$product_query = "SELECT * FROM products,categories WHERE product_cat=cat_id AND product_id BETWEEN 96 AND 100";
 									$run_query = mysqli_query($con, $product_query);
 									if (mysqli_num_rows($run_query) > 0) {
 										while ($row = mysqli_fetch_array($run_query)) {
@@ -163,7 +163,6 @@
 	</div>
 	<!-- /SECTION -->
 
-	<!-- HOT DEAL SECTION -->
 	<div id="hot-deal" class="section mainn mainn-raised">
 		<!-- container -->
 		<div class="container">
@@ -174,41 +173,31 @@
 						<ul class="hot-deal-countdown">
 							<li>
 								<div>
-									<h3>02</h3>
-									<span>Hari</span>
+									<h3>07</h3>
+									<span>Tanggal</span>
 								</div>
 							</li>
 							<li>
 								<div>
-									<h3>10</h3>
-									<span>Jam</span>
+									<h3>07</h3>
+									<span>Bulan</span>
 								</div>
 							</li>
 							<li>
 								<div>
-									<h3>34</h3>
-									<span>Menit</span>
-								</div>
-							</li>
-							<li>
-								<div>
-									<h3>60</h3>
-									<span>Detik</span>
+									<h3>2023</h3>
+									<span>Tahun</span>
 								</div>
 							</li>
 						</ul>
-						<h2 class="text-uppercase">Penawaran Minggu Ini</h2>
+						<h2 class="text-uppercase">Promo Heboh 7.7</h2>
 						<p>Koleksi Terbaru Diskon 50% </p>
 						<a class="primary-btn cta-btn" href="store.php">Beli Sekarang</a>
 					</div>
 				</div>
 			</div>
-			<!-- /row -->
 		</div>
-		<!-- /container -->
 	</div>
-	<!-- /HOT DEAL SECTION -->
-
 
 	<!-- SECTION -->
 	<div class="section">

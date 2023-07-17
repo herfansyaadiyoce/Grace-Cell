@@ -3,10 +3,6 @@ include "db.php";
 
 session_start();
 
-#Login script is begin here
-#If user given credential matches successfully with the data available in database then we will echo string login_success
-#login_success string will go back to called Anonymous funtion $("#login").click() 
-
 if (isset($_POST["email"]) && isset($_POST["password"])) {
 	$email = mysqli_real_escape_string($con, $_POST["email"]);
 	$password = $_POST["password"];
@@ -45,8 +41,7 @@ if (isset($_POST["email"]) && isset($_POST["password"])) {
 		$BackToMyPage = $_SERVER['HTTP_REFERER'];
 		if (!isset($BackToMyPage)) {
 			header('Location: ' . $BackToMyPage);
-			echo "<script type='text/javascript'>
-					</script>";
+			echo "<script type='text/javascript'>Login Sukses</script>";
 		} else {
 			header('Location: index.php');
 		}
