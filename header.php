@@ -118,12 +118,12 @@ session_start();
 
 				<ul class="header-links pull-right">
 					<li><?php
-							include "db.php";
-							if (isset($_SESSION["uid"])) {
-								$sql = "SELECT first_name FROM user_info WHERE user_id='$_SESSION[uid]'";
-								$query = mysqli_query($con, $sql);
-								$row = mysqli_fetch_array($query);
-								echo '
+						include "db.php";
+						if (isset($_SESSION["uid"])) {
+							$sql = "SELECT first_name FROM user_info WHERE user_id='$_SESSION[uid]'";
+							$query = mysqli_query($con, $sql);
+							$row = mysqli_fetch_array($query);
+							echo '
                                <div class="dropdownn">
                                   <a href="#" class="dropdownn" data-toggle="modal" data-target="#myModal" ><i class="fa fa-user-o"></i> HI ' . $row["first_name"] . '</a>
                                   <div class="dropdownn-content">
@@ -131,8 +131,8 @@ session_start();
                                     
                                   </div>
                                 </div>';
-							} else {
-								echo '
+						} else {
+							echo '
                                 <div class="dropdownn">
                                   <a href="#" class="dropdownn" data-toggle="modal" data-target="#myModal" ><i class="fa fa-user-o"></i> Akun Saya</a>
                                   <div class="dropdownn-content">
@@ -140,8 +140,8 @@ session_start();
                                     <a href="" data-toggle="modal" data-target="#Modal_register"><i class="fa fa-user-plus" aria-hidden="true"></i>Daftar</a>  
                                   </div>
                                 </div>';
-							}
-							?>
+						}
+						?>
 					</li>
 				</ul>
 			</div>
@@ -171,8 +171,8 @@ session_start();
 							<!-- Cart -->
 							<div class="dropdown">
 								<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
-									<i class=" fafa-shopping-cart"></i>
-									<span>Keranjang</span>
+									<i class="fa fa-shopping-cart"></i>
+									<span>PESANAN</span>
 									<div class="badge qty">0</div>
 								</a>
 								<div class="cart-dropdown">

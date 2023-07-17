@@ -538,9 +538,8 @@ background: linear-gradient(to bottom, #b00000, #db0000); /* W3C, IE 10+/ Edge, 
 
 .header-ctn {
 
-  position: relative;
-  float: left;
-  padding: 15px 770px;
+  float: right;
+  padding: 15px 0px;
 }
 
 .header-ctn>div {
@@ -2088,7 +2087,7 @@ background: linear-gradient(to bottom, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, 
   margin-right: 15px;
   color: #D10024;
   width: 14px;
-  text-align: center;
+  text-align: right;
 }
 
 .footer-links li a:hover {
@@ -2098,7 +2097,7 @@ background: linear-gradient(to bottom, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, 
 .copyright {
   margin-top: 30px;
   display: block;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .footer-payments li {

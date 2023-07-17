@@ -115,7 +115,7 @@ include "header.php";
 							<p>Silahkan Hubungi Via Whatsapp Untuk Melakukan Order Barang</p>
 							<div class="add-to-cart">
 								<div class="btn-group" style="margin-left: 25px; margin-top: 15px">
-								<button class="add-to-cart-btn" onclick="https://wa.me/+6281804192454" pid="' . $row['product_id'] . '"  id="product" ><i class="fa fa-shopping-cart"></i> Masukan Keranjang </button>
+								<button class="add-to-cart-btn" onclick="https://wa.me/+6281804192454" pid="' . $row['product_id'] . '"  id="product" ><i class="fa fa-shopping-cart"></i> Masukan Pesanan </button>
                                 </div>
 							</div>
 						</div>
@@ -198,7 +198,7 @@ include "header.php";
 										</div>
 									</div>
 									<div class='add-to-cart'>
-										<button pid='$pro_id' id='product' class='add-to-cart-btn block2-btn-towishlist' href='#'><i class='fa fa-shopping-cart'></i> Masukan Keranjang </button>
+										<button pid='$pro_id' id='product' class='add-to-cart-btn block2-btn-towishlist' href='#'><i class='fa fa-shopping-cart'></i> Masukan Pesanan </button>
 									</div>
 								</div>
                                 </div> 

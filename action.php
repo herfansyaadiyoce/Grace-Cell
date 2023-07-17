@@ -132,7 +132,7 @@ if (isset($_POST["getProduct"])) {
 										</div>
 									</div>
 									<div class='add-to-cart'>
-										<button pid='$pro_id' id='product' class='add-to-cart-btn block2-btn-towishlist' href='#'><i class='fa fa-shopping-cart'></i> Masukan Keranjang</button>
+										<button pid='$pro_id' id='product' class='add-to-cart-btn block2-btn-towishlist' href='#'><i class='fa fa-shopping-cart'></i> Masukan Pesanan</button>
 									</div>
 								</div>
 							</div>
@@ -183,7 +183,7 @@ if (isset($_POST["get_seleted_Category"]) || isset($_POST["selectBrand"]) || iss
 										</div>
 									</div>
 									<div class='add-to-cart'>
-										<button pid='$pro_id' id='product' href='#' tabindex='0' class='add-to-cart-btn'><i class='fa fa-shopping-cart'></i> Masukan Keranjang </button>
+										<button pid='$pro_id' id='product' href='#' tabindex='0' class='add-to-cart-btn'><i class='fa fa-shopping-cart'></i> Masukan Pesanan </button>
 									</div>
 								</div>
 							</div>
@@ -210,7 +210,7 @@ if (isset($_POST["addToCart"])) {
 			echo "
 				<div class='alert alert-warning'>
 						<a href='#' class='close' data-dismiss='alert' aria-label='close'>&times;</a>
-						<b>Produk Sudah Ada Dikeranjang</b>
+						<b>Produk Sudah Ada DiList</b>
 				</div>
 			"; //not in video
 		} else {
@@ -221,7 +221,7 @@ if (isset($_POST["addToCart"])) {
 				echo "
 					<div class='alert alert-success'>
 						<a href='#' class='close' data-dismiss='alert' aria-label='close'>&times;</a>
-						<b>Produk Sudah Ditambahkan Dikeranjang</b>
+						<b>Produk Sudah Ditambahkan DiList</b>
 					</div>
 				";
 			}
@@ -233,7 +233,7 @@ if (isset($_POST["addToCart"])) {
 			echo "
 					<div class='alert alert-warning'>
 							<a href='#' class='close' data-dismiss='alert' aria-label='close'>&times;</a>
-							<b>Produk Sudah Ada Dikeranjang</b>
+							<b>Produk Sudah Ada DiList</b>
 					</div>";
 			exit();
 		}
@@ -244,7 +244,7 @@ if (isset($_POST["addToCart"])) {
 			echo "
 					<div class='alert alert-success'>
 						<a href='#' class='close' data-dismiss='alert' aria-label='close'>&times;</a>
-						<b>Produk Sudah Ditambahkan Dikeranjang</b>
+						<b>Produk Sudah Ditambahkan DiList</b>
 					</div>
 				";
 			exit();

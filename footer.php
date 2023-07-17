@@ -23,18 +23,6 @@
 						</script> All rights reserved
 					</span>
 				</div>
-				<div class="col-md-3 col-xs-6">
-					<div class="footer">
-						<h3 class="footer-title">Aksesoris </h3>
-						<ul class="footer-links">
-							<li><a href="store.php">Hardcase</a></li>
-							<li><a href="store.php">Softcase</a></li>
-							<li><a href="store.php">Charger</a></li>
-							<li><a href="store.php">Powerbank</a></li>
-							<li><a href="store.php">Headset</a></li>
-						</ul>
-					</div>
-				</div>
 				<div class="clearfix visible-xs"></div>
 			</div>
 			<!-- /row -->
