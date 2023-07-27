@@ -433,7 +433,7 @@ if (isset($_POST["Common"])) {
 									<input type="hidden" name="cancel_return" value="http://localhost/myfiles/public_html/cancel.php"/>
 									<input type="hidden" name="currency_code" value="USD"/>
 									<input type="hidden" name="custom" value="' . $_SESSION["uid"] . '"/>
-									<a href="https://wa.me/+6281804192454?text=Nama%3A%0ANo.%20HP%3A%0AAlamat%3A%0APesanan%3A%0AJumlah%3A"" target="_blank" class="btn btn-success">
+									<a href="https://wa.me/+6281804192454?text=SELAMAT DATANG DI RARA CELL%0ASilahkan Melengkapi Data Pesanan dan Lampirkan Bukti Screenshot Pemesanan Anda :)%0A%0ANama%3A%0ANo.%20HP%3A%0AAlamat%3A%0APesanan%3A%0AJumlah%3A"" target="_blank" class="btn btn-success">
 									<img src="img/waa.png" alt="WhatsApp" width="15%"> Info Stock & Order
 									</form></td>
 									
